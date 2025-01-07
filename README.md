@@ -2,7 +2,7 @@
 
 <p align="center">A simple component to create loading placeholders without write any SVG line</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mazziv/pageboy/shapes-example.gif" />
+  <img src="https://raw.githubusercontent.com/mazziv/react-placeholder-loading/refs/heads/master/shapes-example.gif" alt="Example Shapes" />
 </p>
 
 ## Instalation
