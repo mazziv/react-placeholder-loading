@@ -17,7 +17,7 @@ const PlaceholderLoading = ({
     <svg {...svgProps}>
       <ShapeElement
         {...shapeProps}
-        role='img'
+        role="img"
         data-testid="shapeElement"
         fill="url(#linear-gradient)"
       />
