@@ -7,7 +7,7 @@
 ## Instalation
 
 ```
-npm i react-placeholder-loading --save
+npm install https://github.com/mazziv/react-placeholder-loading
 ```
 
 ## Usage
