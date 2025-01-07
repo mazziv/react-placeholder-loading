@@ -2,7 +2,7 @@ import { createElement } from 'react';
 
 var getShapeProps = function getShapeProps(shapeInfo) {
   var width = shapeInfo.width,
-      height = shapeInfo.height;
+    height = shapeInfo.height;
   return function (type) {
     var shapeOptions = {
       rect: {
@@ -20,7 +20,7 @@ var getShapeProps = function getShapeProps(shapeInfo) {
 };
 var getSvgProps = function getSvgProps(shapeInfo) {
   var width = shapeInfo.width,
-      height = shapeInfo.height;
+    height = shapeInfo.height;
   return function (type) {
     var svgProps = {
       rect: {
@@ -38,12 +38,12 @@ var getSvgProps = function getSvgProps(shapeInfo) {
 
 var PlaceholderLoading = function PlaceholderLoading(_ref) {
   var width = _ref.width,
-      height = _ref.height,
-      _ref$colorStart = _ref.colorStart,
-      colorStart = _ref$colorStart === void 0 ? '#f0f0f0' : _ref$colorStart,
-      _ref$colorEnd = _ref.colorEnd,
-      colorEnd = _ref$colorEnd === void 0 ? '#e0e0e0' : _ref$colorEnd,
-      shape = _ref.shape;
+    height = _ref.height,
+    _ref$colorStart = _ref.colorStart,
+    colorStart = _ref$colorStart === void 0 ? '#f0f0f0' : _ref$colorStart,
+    _ref$colorEnd = _ref.colorEnd,
+    colorEnd = _ref$colorEnd === void 0 ? '#e0e0e0' : _ref$colorEnd,
+    shape = _ref.shape;
   var ShapeElement = shape;
   var shapeProps = getShapeProps({
     width: width,
@@ -54,7 +54,7 @@ var PlaceholderLoading = function PlaceholderLoading(_ref) {
     height: height
   })(shape);
   return createElement("svg", Object.assign({}, svgProps), createElement(ShapeElement, Object.assign({}, shapeProps, {
-    role: 'img',
+    role: "img",
     "data-testid": "shapeElement",
     fill: "url(#linear-gradient)"
   })), createElement("defs", null, createElement("linearGradient", {

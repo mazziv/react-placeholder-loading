@@ -1,5 +1,5 @@
-import { AvailableShapes } from 'types';
-export declare const getShapeProps: (shapeInfo: Pick<import("./types").IPlaceholderLoadingProps, "width" | "height">) => (type: AvailableShapes) => {
+import { ShapeInfo, AvailableShapes } from 'types';
+export declare const getShapeProps: (shapeInfo: ShapeInfo) => (type: AvailableShapes) => {
     width: string | number;
     height: string | number;
 } | {
@@ -7,7 +7,7 @@ export declare const getShapeProps: (shapeInfo: Pick<import("./types").IPlacehol
     cy: number;
     r: number;
 };
-export declare const getSvgProps: (shapeInfo: Pick<import("./types").IPlaceholderLoadingProps, "width" | "height">) => (type: AvailableShapes) => {
+export declare const getSvgProps: (shapeInfo: ShapeInfo) => (type: AvailableShapes) => {
     width: string | number;
     height: string | number;
 } | {
