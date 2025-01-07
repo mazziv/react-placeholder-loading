@@ -13,7 +13,7 @@ npm install https://github.com/mazziv/react-placeholder-loading
 ## Usage
 
 ```jsx
-import PlaceholderLoading from 'react-placeholder-loading'
+import PlaceholderLoading from '@mazziv/react-placeholder-loading'
 
 const Example = () => (
   <PlaceholderLoading shape="circle" width={60} height={60} />
